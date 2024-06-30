@@ -1,0 +1,64 @@
+.signin-section {
+    min-height: 90vh;
+    margin: 0;
+    padding: 5rem 0 0 0;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+  }
+  .signin-section .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 65rem;
+    padding: 0 2.5rem;
+  }
+  .signin-section .container .signin-form {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+  }
+  .signin-section .container .signin-form .flex {
+    width: 50%;
+    min-height: 37rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 0 2px 24px #d3eaff;
+    color: #24292f;
+  }
+  .signin-section .container .signin-form .flex .title {
+    text-align: center;
+    padding-bottom: 2.5rem;
+  }
+  .signin-section .container .signin-form .flex .button-group {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+  .signin-section .container .signin-form .flex .form-input {
+    padding-bottom: 1rem;
+  }
+  .signin-section .container .signin-form .flex .sumbit {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .signin-section .container .signin-form .flex {
+      width: 80%;
+      padding: 1rem;
+      margin: 0;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    .signin-section .container .signin-form .flex {
+      width: 100%;
+    }
+  }/*# sourceMappingURL=Login.css.map */
